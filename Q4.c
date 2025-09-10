@@ -296,7 +296,7 @@ int main()
         count13++;
     }
 
-    if (count1 == 3 && count2 == 2 || count1 == 2 && count2 == 3 || count3 == 3 && count4 == 2 || count3 == 2 && count4 == 3 || count5 == 3 && count6 == 2 || count5 == 2 && count6 == 3 || count7 == 3 && count8 == 2 || count7 == 2 && count8 == 3 || count9 == 3 && count10 == 2 || count9 == 2 && count10 == 3 || count11 == 3 && count12 == 2 || count11 == 2 && count12 == 3 || count13 == 3 && count1 == 2 || count13 == 2 && count1 == 3)
+    if (count1 == 3 && count2 == 2 || count3 == 2 || count4 == 2 || count5 == 2 || count6 == 2 || count7 == 2 || count8 == 2 || count9 == 2 || count10 == 2 || count11 == 2 || count12 == 2 || count13 == 2)
     {
         printf("full house");
     }
