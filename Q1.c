@@ -1,5 +1,25 @@
 #include <stdio.h>
 #include <string.h>
+// Question No. 1
+// Banks face the challenge of protecting customers from fraudulent activities. Fraud often occurs
+// when someone gains access to another person’s account or debit card and begins making
+// unusual purchases. To address this, a bank wants to create a system that can automatically
+// monitor transactions and flag any that appears suspicious.
+// The system must be able to identify three types of suspicious behavior.
+// • First, if a customer spends more than a fixed daily limit, the system should consider this
+// unusual. For example, if the daily spending limit is set at 5000, then any transaction that
+// causes the total spending in a day to exceed this amount should be flagged.
+// • Second, if a transaction occurs in a foreign country that is not commonly used by the
+// customer, the system should also mark it as suspicious. For instance, if the customer
+// usually shops in Pakistan or the UAE, then a transaction in another country such as the
+// USA or UK would be unusual.
+// • Third, if too many transactions are made within a short period of time, this could also be a
+// sign of fraud. For example, if more than three transactions occur within the same hour, the
+// system should treat the extra transactions as suspicious.
+// By applying these rules, the bank can provide a first level of protection for its customers. Any
+// suspicious transactions identified by the system can be reviewed by the bank’s fraud team for
+// further investigation. This approach allows the bank to reduce risks, protect customer accounts,
+// and build trust by ensuring safer financial operations.
 
 int main() {
     int dailyLimit = 5000;
