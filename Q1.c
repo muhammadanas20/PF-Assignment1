@@ -56,7 +56,7 @@ int main() {
     printf("Enter number of transactions in this hour (including this one): ");
     scanf("%d", &transactionsThisHour);
 
-    // Check transactions per hour
+    // Check transactions per hour assume only 3 per hour allowed
     if (transactionsThisHour > 3) {
         printf("Transaction flagged: Too many transactions in one hour.\n");
         return 0;
