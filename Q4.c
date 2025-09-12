@@ -17,65 +17,293 @@
 int main()
 {
     int card1, card2, card3, card4, card5;
-    int c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0, c6 = 0, c7 = 0, c8 = 0, c9 = 0, c10 = 0, c11 = 0, c12 = 0, c13 = 0;
-    int three = 0, two = 0;
-
-    printf("Enter card 1: ");
+    int count1 = 0, count2 = 0, count3 = 0, count4 = 0, count5 = 0, count6 = 0, count7 = 0, count8 = 0, count9 = 0, count10 = 0, count11 = 0, count12 = 0, count13 = 0;
+    printf("enter your card1 number:");
     scanf("%d", &card1);
-    printf("Enter card 2: ");
+    printf("enter your card2 number: ");
     scanf("%d", &card2);
-    printf("Enter card 3: ");
+    printf("enter your card3 number: ");
     scanf("%d", &card3);
-    printf("Enter card 4: ");
+    printf("enter your card4 number: ");
     scanf("%d", &card4);
-    printf("Enter card 5: ");
+    printf("enter your card5 number: ");
     scanf("%d", &card5);
+    // for card1
+    if (card1 == 1)
+    {
+        count1++;
+    }
+    else if (card1 == 2)
+    {
+        count2++;
+    }
+    else if (card1 == 3)
+    {
+        count3++;
+    }
+    else if (card1 == 4)
+    {
+        count4++;
+    }
+    else if (card1 == 5)
+    {
+        count5++;
+    }
+    else if (card1 == 6)
+    {
+        count6++;
+    }
+    else if (card1 == 7)
+    {
+        count7++;
+    }
+    else if (card1 == 8)
+    {
+        count8++;
+    }
+    else if (card1 == 9)
+    {
+        count9++;
+    }
+    else if (card1 == 10)
+    {
+        count10++;
+    }
+    else if (card1 == 11)
+    {
+        count11++;
+    }
+    else if (card1 == 12)
+    {
+        count12++;
+    }
+    else if (card1 == 13)
+    {
+        count13++;
+    }
+    // for card2
+    if (card2 == 1)
+    {
+        count1++;
+    }
+    else if (card2 == 2)
+    {
+        count2++;
+    }
+    else if (card2 == 3)
+    {
+        count3++;
+    }
+    else if (card2 == 4)
+    {
+        count4++;
+    }
+    else if (card2 == 5)
+    {
+        count5++;
+    }
+    else if (card2 == 6)
+    {
+        count6++;
+    }
+    else if (card2 == 7)
+    {
+        count7++;
+    }
+    else if (card2 == 8)
+    {
+        count8++;
+    }
+    else if (card2 == 9)
+    {
+        count9++;
+    }
+    else if (card2 == 10)
+    {
+        count10++;
+    }
+    else if (card2 == 11)
+    {
+        count11++;
+    }
+    else if (card2 == 12)
+    {
+        count12++;
+    }
+    else if (card2 == 13)
+    {
+        count13++;
+    }
+    // for card3
+    if (card3 == 1)
+    {
+        count1++;
+    }
+    else if (card3 == 2)
+    {
+        count2++;
+    }
+    else if (card3 == 3)
+    {
+        count3++;
+    }
+    else if (card3 == 4)
+    {
+        count4++;
+    }
+    else if (card3 == 5)
+    {
+        count5++;
+    }
+    else if (card3 == 6)
+    {
+        count6++;
+    }
+    else if (card3 == 7)
+    {
+        count7++;
+    }
+    else if (card3 == 8)
+    {
+        count8++;
+    }
+    else if (card3 == 9)
+    {
+        count9++;
+    }
+    else if (card3 == 10)
+    {
+        count10++;
+    }
+    else if (card3 == 11)
+    {
+        count11++;
+    }
+    else if (card3 == 12)
+    {
+        count12++;
+    }
+    else if (card3 == 13)
+    {
+        count13++;
+    }
 
-    // Count each card value
-    if(card1==1) c1++; else if(card1==2) c2++; else if(card1==3) c3++; else if(card1==4) c4++;
-    else if(card1==5) c5++; else if(card1==6) c6++; else if(card1==7) c7++; else if(card1==8) c8++;
-    else if(card1==9) c9++; else if(card1==10) c10++; else if(card1==11) c11++; else if(card1==12) c12++;
-    else if(card1==13) c13++;
-    // count for card2
-    if(card2==1) c1++; else if(card2==2) c2++; else if(card2==3) c3++; else if(card2==4) c4++;
-    else if(card2==5) c5++; else if(card2==6) c6++; else if(card2==7) c7++; else if(card2==8) c8++;
-    else if(card2==9) c9++; else if(card2==10) c10++; else if(card2==11) c11++; else if(card2==12) c12++;
-    else if(card2==13) c13++;
-    // count for card3
-    if(card3==1) c1++; else if(card3==2) c2++; else if(card3==3) c3++; else if(card3==4) c4++;
-    else if(card3==5) c5++; else if(card3==6) c6++; else if(card3==7) c7++; else if(card3==8) c8++;
-    else if(card3==9) c9++; else if(card3==10) c10++; else if(card3==11) c11++; else if(card3==12) c12++;
-    else if(card3==13) c13++;
-    // count for card4
-    if(card4==1) c1++; else if(card4==2) c2++; else if(card4==3) c3++; else if(card4==4) c4++;
-    else if(card4==5) c5++; else if(card4==6) c6++; else if(card4==7) c7++; else if(card4==8) c8++;
-    else if(card4==9) c9++; else if(card4==10) c10++; else if(card4==11) c11++; else if(card4==12) c12++;
-    else if(card4==13) c13++;
-    // count for card5
-    if(card5==1) c1++; else if(card5==2) c2++; else if(card5==3) c3++; else if(card5==4) c4++;
-    else if(card5==5) c5++; else if(card5==6) c6++; else if(card5==7) c7++; else if(card5==8) c8++;
-    else if(card5==9) c9++; else if(card5==10) c10++; else if(card5==11) c11++; else if(card5==12) c12++;
-    else if(card5==13) c13++;
+    //   for card4
+    if (card4 == 1)
+    {
+        count1++;
+    }
+    else if (card4 == 2)
+    {
+        count2++;
+    }
+    else if (card4 == 3)
+    {
+        count3++;
+    }
+    else if (card4 == 4)
+    {
+        count4++;
+    }
+    else if (card4 == 5)
+    {
+        count5++;
+    }
+    else if (card4 == 6)
+    {
+        count6++;
+    }
+    else if (card4 == 7)
+    {
+        count7++;
+    }
+    else if (card4 == 8)
+    {
+        count8++;
+    }
+    else if (card4 == 9)
+    {
+        count9++;
+    }
+    else if (card4 == 10)
+    {
+        count10++;
+    }
+    else if (card4 == 11)
+    {
+        count11++;
+    }
+    else if (card4 == 12)
+    {
+        count12++;
+    }
+    else if (card4 == 13)
+    {
+        count13++;
+    }
 
-    // Check for three of one rank and two of another
-    if(c1==3) three++; if(c1==2) two++;
-    if(c2==3) three++; if(c2==2) two++;
-    if(c3==3) three++; if(c3==2) two++;
-    if(c4==3) three++; if(c4==2) two++;
-    if(c5==3) three++; if(c5==2) two++;
-    if(c6==3) three++; if(c6==2) two++;
-    if(c7==3) three++; if(c7==2) two++;
-    if(c8==3) three++; if(c8==2) two++;
-    if(c9==3) three++; if(c9==2) two++;
-    if(c10==3) three++; if(c10==2) two++;
-    if(c11==3) three++; if(c11==2) two++;
-    if(c12==3) three++; if(c12==2) two++;
-    if(c13==3) three++; if(c13==2) two++;
+    // for card 5
+    if (card5 == 1)
+    {
+        count1++;
+    }
+    else if (card5 == 2)
+    {
+        count2++;
+    }
+    else if (card5 == 3)
+    {
+        count3++;
+    }
+    else if (card5 == 4)
+    {
+        count4++;
+    }
+    else if (card5 == 5)
+    {
+        count5++;
+    }
+    else if (card5 == 6)
+    {
+        count6++;
+    }
+    else if (card5 == 7)
+    {
+        count7++;
+    }
+    else if (card5 == 8)
+    {
+        count8++;
+    }
+    else if (card5 == 9)
+    {
+        count9++;
+    }
+    else if (card5 == 10)
+    {
+        count10++;
+    }
+    else if (card5 == 11)
+    {
+        count11++;
+    }
+    else if (card5 == 12)
+    {
+        count12++;
+    }
+    else if (card5 == 13)
+    {
+        count13++;
+    }
 
-    if(three==1 && two==1)
-        printf("Full house\n");
+    if (count1 == 3 && count2 == 2 || count3 == 2 || count4 == 2 || count5 == 2 || count6 == 2 || count7 == 2 || count8 == 2 || count9 == 2 || count10 == 2 || count11 == 2 || count12 == 2 || count13 == 2)
+    {
+        printf("full house");
+    }
     else
-        printf("Not a full house\n");
+    {
+        printf("not a full house");
+    }
 
     return 0;
 }
