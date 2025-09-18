@@ -22,14 +22,34 @@ int main()
 
     printf("Enter card 1: ");
     scanf("%d", &card1);
+    if (card1 < 1 || card1 > 13) {
+        printf("Invalid card value. Please enter a value between 1 and 13.\n");
+        return 1; // Exit the program with an error code
+    }
     printf("Enter card 2: ");
     scanf("%d", &card2);
+    if (card2 < 1 || card2 > 13) {
+        printf("Invalid card value. Please enter a value between 1 and 13.\n");
+        return 1; // Exit the program with an error code
+    }
     printf("Enter card 3: ");
     scanf("%d", &card3);
+    if (card3 < 1 || card3 > 13) {
+        printf("Invalid card value. Please enter a value between 1 and 13.\n");
+        return 1; // Exit the program with an error code
+    }
     printf("Enter card 4: ");
     scanf("%d", &card4);
+    if (card4 < 1 || card4 > 13) {
+        printf("Invalid card value. Please enter a value between 1 and 13.\n");
+        return 1; // Exit the program with an error code
+    }
     printf("Enter card 5: ");
     scanf("%d", &card5);
+    if (card5 < 1 || card5 > 13) {
+        printf("Invalid card value. Please enter a value between 1 and 13.\n");
+        return 1; // Exit the program with an error code
+    }
 
     // Count each card value
     if(card1==1) c1++; else if(card1==2) c2++; else if(card1==3) c3++; else if(card1==4) c4++;
